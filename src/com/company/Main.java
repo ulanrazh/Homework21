@@ -12,6 +12,7 @@ public class Main {
         String dayOfWeek = scanner.nextLine();
 
         WeekDays weekDays = WeekDays.valueOf(dayOfWeek);
+        // there may exception
 
         switch (weekDays) {
             case MONDAY -> System.out.println(WeekDays.MONDAY + " куну жава окуйм");
